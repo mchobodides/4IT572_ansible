@@ -9,7 +9,7 @@
         image: ami-085925f297f89fce1
         region: us-east-1
         key_name: test
-        vpc_subnet_id: subnet-ae2eae8f
+        vpc_subnet_id: subnet-0f11a6cfaa82db9b6
         assign_public_ip: yes
         wait: yes
         count: 1
