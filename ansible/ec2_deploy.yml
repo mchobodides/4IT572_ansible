@@ -42,7 +42,7 @@
         name: Get project files from git
         state: started
         enabled: yes
-       become: yes
+      become: yes
     - name: Get project files from git
       git:
           repo: 'https://github.com/vfalada/4it572_docker'
