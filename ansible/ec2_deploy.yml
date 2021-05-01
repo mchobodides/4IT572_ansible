@@ -34,12 +34,12 @@
   tasks:
     - name: Install docker
       apt:
-          name: docker.io
-          state: present
-          update_cache: yes
+        name: docker.io
+        state: present
+        update_cache: yes
       become: yes
     - service:
-        name: Get project files from git
+        name: docker
         state: started
         enabled: yes
       become: yes
