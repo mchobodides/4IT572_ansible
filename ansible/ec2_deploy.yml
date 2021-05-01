@@ -6,10 +6,10 @@
     - name: Launche EC2 instance
       ec2:
         instance_type: t2.micro
-        image: ami-013f17f36f8b1fefb
+        image: ami-085925f297f89fce1
         region: us-east-1
         key_name: test
-        vpc_subnet_id: subnet-fc63dfcd
+        vpc_subnet_id: subnet-ae2eae8f
         assign_public_ip: yes
         wait: yes
         count: 1
