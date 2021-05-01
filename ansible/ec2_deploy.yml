@@ -45,8 +45,8 @@
       become: yes
     - name: Get project files from git
       git:
-          repo: 'https://github.com/vfalada/4it572_docker'
-          dest: ./app
+        repo: 'https://github.com/vfalada/4it572_docker'
+        dest: ./app
     - name: Build docker with eshop
       shell: cd app && docker build -t myeshop:latest .
       become: yes
